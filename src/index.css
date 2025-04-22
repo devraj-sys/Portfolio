@@ -1,0 +1,16 @@
+@import "tailwindcss";
+body {
+    background-color: white;
+    color: #1a202c; /* Equivalent to text-gray-900 */
+    transition: color 0.3s, background-color 0.3s;
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #1a202c; /* Equivalent to dark:bg-gray-900 */
+      color: white; /* Equivalent to dark:text-white */
+    }
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
